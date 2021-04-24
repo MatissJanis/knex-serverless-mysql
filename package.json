@@ -6,6 +6,10 @@
   "author": "Matiss Janis Aboltins <matiss@mja.lv>",
   "license": "MIT",
   "main": "index.js",
+  "files": [
+    "lib/*",
+    "index.js"
+  ],
   "scripts": {
     "build": "babel -D src/ --out-dir lib/"
   },
@@ -16,8 +20,5 @@
   },
   "peerDependencies": {
     "knex": ">=0.11.4"
-  },
-  "dependencies": {
-    "knex": "^0.95.4"
   }
 }
