@@ -12,7 +12,19 @@ AWS Lambda function execution contexts. This reduces the load on
 the database. However, this client is not natively supported by
 Knex. This library solves the problem.
 
-## Simple Example
+## Getting Started
+
+### Installation
+
+```
+yarn add knex-serverless-mysql
+
+# or
+
+npm install knex-serverless-mysql
+```
+
+### Simple Example
 
 ```js
 const Knex = require('knex');
@@ -37,7 +49,7 @@ exports.run = function () {
 }
 ```
 
-## Usage with [datasource-sql]
+### Usage with [datasource-sql]
 
 ```js
 const Knex = require('knex');
@@ -71,15 +83,12 @@ exports.run = function () {
 }
 ```
 
-## Installation
+## Contributing
 
-```
-yarn add knex-serverless-mysql
+All contributions are welcome!
 
-# or
+Please open an issue or pull request.
 
-npm install knex-serverless-mysql
-```
 
 [serverless-mysql]: https://github.com/jeremydaly/serverless-mysql
 [datasource-sql]: https://github.com/cvburgess/SQLDataSource
