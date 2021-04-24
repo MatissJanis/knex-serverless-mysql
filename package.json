@@ -1,0 +1,23 @@
+{
+  "name": "knex-serverless-mysql",
+  "version": "1.0.0",
+  "description": "Knex.js dialect for serverless-mysql",
+  "repository": "git@github.com:MatissJanis/knex-serverless-mysql.git",
+  "author": "Matiss Janis Aboltins <matiss@mja.lv>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel -D src/ --out-dir lib/"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.13.16",
+    "@babel/preset-env": "^7.13.15"
+  },
+  "peerDependencies": {
+    "knex": ">=0.11.4"
+  },
+  "dependencies": {
+    "knex": "^0.95.4"
+  }
+}
