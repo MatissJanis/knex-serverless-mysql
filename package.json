@@ -1,6 +1,6 @@
 {
   "name": "knex-serverless-mysql",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Knex.js dialect for serverless-mysql",
   "repository": "git@github.com:MatissJanis/knex-serverless-mysql.git",
   "author": "Matiss Janis Aboltins <matiss@mja.lv>",
